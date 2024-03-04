@@ -3,7 +3,7 @@ O objetivo geral deste projeto é desenvolver um sistema de recomendação de li
 
 - Coletar, preparar e analisar dados sobre livros, usuários e classificações;
 
-- o algoritmo KNN para gerar recomendações personalizadas;
+- Implementar o algoritmo KNN para gerar recomendações personalizadas;
 
 - Avaliar a eficiência do sistema de recomendação por meio de métricas de qualidade.
 
