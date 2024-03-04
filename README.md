@@ -1,4 +1,7 @@
 # SISTEMA DE RECOMENDAÇÃO DE LIVROS
+
+![image](https://github.com/RickPardono/Sistema-de-recomenda-o-de-livros/assets/124527157/438fd2b4-f6b4-4bfb-88b5-9668bc360eaa)
+
 O objetivo geral deste projeto é desenvolver um sistema de recomendação de livros utilizando a técnica de filtragem colaborativa baseada no algoritmo KNN. Para atingir o objetivo geral temos como objetivos específicos:
 
 - Coletar, preparar e analisar dados sobre livros, usuários e classificações;
