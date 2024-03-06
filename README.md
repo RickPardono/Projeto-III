@@ -1,4 +1,4 @@
-# SISTEMA DE RECOMENDAÇÃO DE LIVROS
+# SISTEMA DE RECOMENDAÇÃO DE LIVROS e-LYTER
 
 
 ![image](https://github.com/RickPardono/Sistema-de-recomenda-o-de-livros/assets/124527157/748b923d-14e0-45cd-aedb-1fc54d7fc296)
