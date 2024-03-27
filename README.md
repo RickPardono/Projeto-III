@@ -5,20 +5,26 @@
 
 
 
-O objetivo geral deste projeto é desenvolver um sistema de recomendação de livros utilizando a técnica de filtragem colaborativa baseada no algoritmo KNN. Para atingir o objetivo geral temos como objetivos específicos:
+O objetivo geral deste projeto é desenvolver um sistema de recomendação de livros utilizando a técnica de filtragem colaborativa baseada no algoritmo SVD. Para atingir o objetivo geral temos como objetivos específicos:
 
 - Coletar, preparar e analisar dados sobre livros, usuários e classificações;
 
-- Implementar o algoritmo KNN para gerar recomendações personalizadas;
+- Dividir os dados em conjunto de treinamento e teste;
 
-- Avaliar a eficiência do sistema de recomendação por meio de métricas de qualidade.
+- Realizar a validação cruzada para avaliar o desempenho do modelo em diferentes divisões de dados usando as métricas de desempenho Root Mean Square Error (RMSE) e Mean Absolute Error (MAE);
 
-A base de dados escolhida para o projeto foi extraída do repositório Kaggle em 04/03/24. Os dados são públicos, não sensíveis e foram coletados em sites de vendas de livros. Podem ser  acessados pelo link: https://www.kaggle.com/datasets/rxsraghavagrawal/book-recommender-system/data.
+- Treinar o modelo usando o conjunto de treinamento;
+
+- Verificar a precisão das previsões usando o conjunto de teste e as métricas de desempenho RMSE e MAE;
+
+- Implementar o Sistema de Recomendação;
+
+A base de dados escolhida para o projeto foi extraída do Github em 04/03/24. Os dados são públicos, não sensíveis e foram coletados em sites de resenhas e vendas de livros. Podem ser acessados pelo link: https://github.com/zygmuntz/goodbooks-10k.
 O conjunto de dados apresenta 3 arquivos no formato csv:
 
-- BX-Book-Ratings.csv : informações relacionadas às classificações dos livros pelos usuários como ID do usuário, ID do livro e classificação do livro;
+- books.csv : informações sobre o ID do livro, ID na plataforma Goodreads, ID no site Best Reads, ID do livro em Banco de Dados central, número de versões, International Standard Book Number (ISBN), nome(s) do(s) autor(es), nome do livro original, nome do livro, código do idioma, média das avaliações, número total de avaliações, número de resenhas escritas do livro, número de avaliações de nota 1 a 5, url da imagem da capa, url da imagem da capa do livro em tamanho menor;
 
-- BX-Books.csv : informações relacionadas aos livros como ID, título, autor, ano de publicação, editor, imagem url pequena, imagem url média e imagem url grande;
+- ratings.csv : informações relacionadas ao ID do usuário, ID do livro e avaliação do livro pelo usuário.
 
-- BX-Users.csv : informações relacionadas aos usuários como ID do usuário, localização e idade.
+
 
