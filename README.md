@@ -17,7 +17,7 @@ O objetivo geral desse projeto é desenvolver um Sistema de Recomendação de li
 
 - Verificar a precisão das previsões usando o conjunto de teste e as métricas de desempenho RMSE e MAE;
 
-- Implementar o Sistema de Recomendação;
+- Implementar o Sistema de Recomendação.
 
 A base de dados escolhida para o projeto foi extraída do Github em 04/03/24. Os dados são públicos, não sensíveis e foram coletados em sites de resenhas e vendas de livros. Podem ser acessados pelo link: https://github.com/zygmuntz/goodbooks-10k.
 O conjunto de dados apresenta 3 arquivos no formato csv:
