@@ -5,13 +5,13 @@
 
 
 
-O objetivo geral deste projeto é desenvolver um sistema de recomendação de livros utilizando a técnica de filtragem colaborativa baseada no algoritmo SVD. Para atingir o objetivo geral temos como objetivos específicos:
+O objetivo geral desse projeto é desenvolver um Sistema de Recomendação de livros utilizando técnica de filtragem colaborativa e algoritmo Singular Value Decomposition (SVD).  Para atingir o objetivo geral temos como objetivos específicos:
 
 - Coletar, preparar e analisar dados sobre livros, usuários e classificações;
 
 - Dividir os dados em conjunto de treinamento e teste;
 
-- Realizar a validação cruzada para avaliar o desempenho do modelo em diferentes divisões de dados usando as métricas de desempenho Root Mean Square Error (RMSE) e Mean Absolute Error (MAE);
+- Realizar a validação cruzada e otimização de parâmetros com GridSearchCV para avaliar o desempenho do modelo em diferentes divisões de dados usando as métricas de desempenho Root Mean Square Error (RMSE) e Mean Absolute Error (MAE);
 
 - Treinar o modelo usando o conjunto de treinamento;
 
@@ -26,5 +26,5 @@ O conjunto de dados apresenta 3 arquivos no formato csv:
 
 - ratings.csv : informações relacionadas ao ID do usuário, ID do livro e avaliação do livro pelo usuário.
 
-
+O modelo SVD final apresentou resultados significativamente superiores aos modelos comparativos, como o KNN e o próprio SVD configurado com os parâmetros básicos.
 
